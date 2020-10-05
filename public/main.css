@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-body {
+body.container-center {
     font-size: 10px;
     font-family: Tahoma, Arial;
 }
@@ -63,27 +63,27 @@ div.hero h2 {
     color: #4d5791;
 }
 
-.container {
+div.container {
     padding: 40px;
     width: 100%;
 }
 
-.page-area {
+div.page-area {
     max-width: 768px;
     display: inline-block;
 }
 
-.bottom {
+div.bottom {
     height: 50px;
     background-color: #b4c6f0;
     padding: 40px;
 }
 
-.center {
+div.center {
     text-align: center;
 }
 
-.container div.text-box {
+div.text-box {
     display: inline-block;
     width: 100%;
     max-width: 340px;
@@ -92,7 +92,7 @@ div.hero h2 {
 }
 
 @media screen and (min-width: 768px) {
-    .container .div.text-box {
+    .container div.text-box {
         margin: 10px;
     }
 }
